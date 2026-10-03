@@ -1,0 +1,15 @@
+# Entorno virtual
+onlyflans/
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Base de datos
+db.sqlite3
+
+# Sistema
+.DS_Store
+Thumbs.db

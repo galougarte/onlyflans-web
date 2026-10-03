@@ -1,0 +1,223 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container py-5">
+
+    <!-- Encabezado -->
+    <div class="text-center mb-5">
+        <span class="badge bg-warning text-dark mb-3 px-3 py-2">
+            Desde 2021
+        </span>
+
+        <h1 class="display-4 fw-bold">
+            Acerca de OnlyFlans
+        </h1>
+
+        <p class="lead text-muted">
+            Dulzura, calidad y tradición en cada preparación.
+        </p>
+    </div>
+
+
+    <!-- Presentación principal -->
+    <div class="row align-items-center mb-5">
+
+        <div class="col-md-7">
+            <h2 class="fw-bold mb-3">
+                Nuestra historia
+            </h2>
+
+            <p class="fs-5">
+                OnlyFlans es una empresa enfocada en el mundo de la pastelería
+                y los postres, especialmente en la elaboración y venta de flanes.
+            </p>
+
+            <p>
+                La empresa nace en el año 2021 en Santiago de Chile como un
+                emprendimiento familiar que busca entregar productos de calidad
+                a sus clientes.
+            </p>
+
+            <p>
+                Nos encontramos ubicados en la comuna de Providencia, a pasos
+                del Metro Parque Bustamante.
+            </p>
+        </div>
+
+        <div class="col-md-5">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body text-center p-5">
+
+                    <div class="display-1 mb-3">
+                        🍮
+                    </div>
+
+                    <h4 class="fw-bold">
+                        OnlyFlans
+                    </h4>
+
+                    <p class="text-muted mb-1">
+                        Pastelería y postres
+                    </p>
+
+                    <span class="badge bg-success">
+                        Providencia · Santiago
+                    </span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Características -->
+    <div class="row g-4 mb-5">
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body p-4">
+
+                    <div class="fs-1 mb-3">
+                        🍮
+                    </div>
+
+                    <h4 class="fw-bold">
+                        Nuestros productos
+                    </h4>
+
+                    <p class="text-muted">
+                        Elaboramos flanes y postres pensando en entregar
+                        productos de calidad para nuestros clientes.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body p-4">
+
+                    <div class="fs-1 mb-3">
+                        ⭐
+                    </div>
+
+                    <h4 class="fw-bold">
+                        Calidad
+                    </h4>
+
+                    <p class="text-muted">
+                        Buscamos entregar una experiencia cercana,
+                        confiable y de calidad en cada uno de
+                        nuestros productos.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body p-4">
+
+                    <div class="fs-1 mb-3">
+                        ❤️
+                    </div>
+
+                    <h4 class="fw-bold">
+                        Nuestros clientes
+                    </h4>
+
+                    <p class="text-muted">
+                        Queremos construir relaciones duraderas con
+                        nuestros clientes y ofrecer beneficios especiales
+                        a quienes forman parte de nuestra comunidad.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Propuesta -->
+    <div class="card border-0 shadow mb-5">
+        <div class="card-body p-5">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-8">
+
+                    <h2 class="fw-bold">
+                        Nuestra propuesta
+                    </h2>
+
+                    <p class="mb-2">
+                        OnlyFlans busca consolidar su presencia y ofrecer
+                        un espacio donde nuestros clientes puedan conocer
+                        los diferentes productos elaborados por la empresa.
+                    </p>
+
+                    <p class="mb-0">
+                        Nuestro sitio permite presentar productos para el
+                        público general y ofrecer productos especiales para
+                        usuarios registrados, fortaleciendo así la relación
+                        con nuestros clientes recurrentes.
+                    </p>
+
+                </div>
+
+                <div class="col-md-4 text-center">
+
+                    <div class="display-2">
+                        👨‍👩‍👧‍👦
+                    </div>
+
+                    <h5 class="fw-bold mt-2">
+                        Empresa familiar
+                    </h5>
+
+                    <p class="text-muted">
+                        Santiago de Chile
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Futuro -->
+    <div class="p-5 bg-light rounded-3 text-center shadow-sm">
+
+        <div class="fs-1 mb-3">
+            🚀
+        </div>
+
+        <h2 class="fw-bold">
+            Mirando hacia el futuro
+        </h2>
+
+        <p class="lead text-muted mx-auto" style="max-width: 800px;">
+            OnlyFlans busca continuar creciendo e incorporando nuevas
+            funcionalidades que mejoren la experiencia de nuestros clientes,
+            incluyendo en el futuro la posibilidad de realizar compras
+            directamente a través de Internet.
+        </p>
+
+        <a href="{% url 'indice' %}" class="btn btn-warning btn-lg mt-3 px-4">
+            Conoce nuestros productos
+        </a>
+
+    </div>
+
+</div>
+
+{% endblock %}
